@@ -45,12 +45,12 @@ sequelize
   })
   .then(user => {
    console.log(user)
-   app.listen(3002);
+   app.listen(3001);
   })
   .catch((error) => {
     console.error(error);
   });
 
 app.get("/", (req, res) => {
-  res.json({ message: "web shop app" });
+  res.json({ message: "Web_shop" });
 });
